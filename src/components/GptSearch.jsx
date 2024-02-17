@@ -6,7 +6,7 @@ import { BG_URL } from "../utils/constant";
 const GptSearch = () => {
   return (
     <div>
-      <div className="absolute h-lvh -z-10">
+      <div className="fixed h-lvh -z-10">
         <img className="bg-gradient-to-t" src={BG_URL} alt="background" />
       </div>
       <GptSearchBar />
